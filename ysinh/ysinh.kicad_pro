@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -153,7 +159,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.5,
+        "min_track_width": 0.7,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.8,
         "solder_mask_to_copper_clearance": 0.0,
@@ -203,7 +209,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +238,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -516,7 +529,9 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+5V": "rgb(255, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -524,7 +539,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/thuy/embedded/project/ysinh/ysinh/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -661,7 +676,7 @@
         "uuid": "8560bb7c-3fd4-4e30-bab2-e6562b64996c"
       }
     ],
-    "used_designators": "J1-2,#PWR1-19,R1-6,BZ1-2,Q1-5,U1-5,D1-2,A1-2",
+    "used_designators": "J1-2,#PWR1-19,R1-6,BZ1-2,Q1-5,U1-6,D1-2,A1-2",
     "variants": []
   },
   "sheets": [
