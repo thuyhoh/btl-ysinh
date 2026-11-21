@@ -3330,6 +3330,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 30.48) (xy 135.89 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d68b249-a7fe-4d35-a782-4b7e9d4602b2")
+	)
+	(wire
+		(pts
 			(xy 162.56 102.87) (xy 167.64 102.87)
 		)
 		(stroke
@@ -3537,16 +3547,6 @@
 			(type default)
 		)
 		(uuid "810cd3b8-d4dd-41bc-b751-a93e6433e97e")
-	)
-	(wire
-		(pts
-			(xy 135.89 30.48) (xy 135.89 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "840f349c-4145-4ce4-898e-cf382be3b14f")
 	)
 	(wire
 		(pts
@@ -4865,104 +4865,6 @@
 			(project "ysinh"
 				(path "/8560bb7c-3fd4-4e30-bab2-e6562b64996c"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mylib:max30102-module")
-		(at 57.15 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b52845d-72c8-4200-88d1-65cc7612d413")
-		(property "Reference" "U3"
-			(at 56.515 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX30102-MOD"
-			(at 56.515 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mylib:max30102-mod-fp"
-			(at 57.15 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "58e873bc-1782-431d-948e-d58fefe0cf5f")
-		)
-		(pin "1"
-			(uuid "40752416-7ba7-4578-b2e3-71f0c73d01fd")
-		)
-		(pin "6"
-			(uuid "decd0c93-0d22-4509-aef4-2ccc4ec8fa6e")
-		)
-		(pin "3"
-			(uuid "4d3bf1e9-d29d-4248-8739-a9dbae92cf19")
-		)
-		(pin "4"
-			(uuid "66706098-4899-4ac7-911e-e98459c26212")
-		)
-		(pin "8"
-			(uuid "3a3abf9e-8b3b-4cfb-a6bd-e3973852f7af")
-		)
-		(pin "7"
-			(uuid "fb9e30d4-0563-497d-b8c2-705910a7e95a")
-		)
-		(pin "2"
-			(uuid "23107398-cd48-483c-bff3-f545f1a02c6e")
-		)
-		(instances
-			(project "ysinh"
-				(path "/8560bb7c-3fd4-4e30-bab2-e6562b64996c"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -7202,6 +7104,104 @@
 			(project "ysinh"
 				(path "/8560bb7c-3fd4-4e30-bab2-e6562b64996c"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mylib:max30102-module")
+		(at 57.15 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f71d56e4-6420-4b9b-bbed-35705de03145")
+		(property "Reference" "U3"
+			(at 56.515 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX30102-MOD"
+			(at 56.515 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mylib:max30102-mod-fp"
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "26c0cdf5-0c70-4e37-b437-9ead1c675abd")
+		)
+		(pin "1"
+			(uuid "d3749d3c-5ff8-4ed2-9421-a44a578bed14")
+		)
+		(pin "8"
+			(uuid "62b98452-f569-4b9f-bb69-0aae1d425a2d")
+		)
+		(pin "4"
+			(uuid "36d3d7ac-912e-43bb-9f87-9283d7d6ba24")
+		)
+		(pin "5"
+			(uuid "c6c7ebd3-19cc-4863-9ee8-0bd806d5513b")
+		)
+		(pin "6"
+			(uuid "ffdaca67-652a-42c1-be32-d41518292c11")
+		)
+		(pin "2"
+			(uuid "e5e5a62f-aa0b-4a92-9c3e-d4376b569bdc")
+		)
+		(pin "7"
+			(uuid "67281ccc-1b15-4b1b-9a3d-7c36a84bbfda")
+		)
+		(instances
+			(project "ysinh"
+				(path "/8560bb7c-3fd4-4e30-bab2-e6562b64996c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
